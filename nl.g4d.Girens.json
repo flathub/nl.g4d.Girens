@@ -1,7 +1,7 @@
 {
     "app-id": "nl.g4d.Girens",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
     "command": "girens",
     "finish-args": [
@@ -142,7 +142,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tijder/python-plexapi",
-                    "commit" : "abac9173f838c306497f3b69899af0b3ae3f0eb5"
+                    "commit" : "31f60a01346566694d58e9e0e35513abee2cb602"
                 }
             ],
             "modules" : [
@@ -264,13 +264,13 @@
             "name" : "libhandy",
             "buildsystem" : "meson",
             "config-opts": [
-                "-Dglade_catalog=false"
+                "-Dglade_catalog=disabled"
             ],
             "sources" : [
                 {
                     "type" : "archive",
-                    "sha256" : "449c9b2354b843755fbd6729c32cad52c2fffe45986ad635bb84edf4c92f55ad",
-                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.6/libhandy-v0.0.6.tar.bz2"
+                    "sha256" : "667d9218fb1ac732564238ba6c034d3b868a4ddecf9ea8f217152361f72b24f2",
+                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.9/libhandy-v0.0.9.tar.bz2"
                 }
             ]
         },
@@ -281,8 +281,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "tag": "v1.0.2",
-                    "commit": "b2c379e495847fafa6f779902a84e85cde2f226a"
+                    "tag": "v1.0.3",
+                    "commit": "5896e44b5f74faa27ed807048caf6114ba60e75e"
                 }
             ]
         }

@@ -281,8 +281,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "tag": "v1.0.4",
-                    "commit": "4079a196b7dbf703ee6cc86fb67c2589812673db"
+                    "tag": "v1.0.5",
+                    "commit": "dbeb552d9de8bb47c49ebccf10383d225d0e3a68"
                 }
             ]
         }

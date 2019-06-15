@@ -12,6 +12,7 @@
         "--socket=wayland",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
+        "--own-name=org.mpris.MediaPlayer2.Girens",
         "--talk-name=org.gnome.SettingsDaemon.MediaKeys",
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
@@ -282,8 +283,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "tag": "v1.0.6",
-                    "commit": "09d57b1ed856fa65a454c8c144cc51af5c1dd71f"
+                    "tag": "v1.0.7",
+                    "commit": "2c5b22e56e890c1e726a7dcd010c53dbf05d3b54"
                 }
             ]
         }

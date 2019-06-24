@@ -12,6 +12,8 @@
         "--socket=wayland",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
+        "--own-name=org.mpris.MediaPlayer2.Girens",
+        "--talk-name=org.gnome.SettingsDaemon.MediaKeys",
         "--talk-name=ca.desrt.dconf",
         "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
     ],
@@ -35,7 +37,7 @@
             ],
             "buildsystem" : "simple",
             "build-commands" : [
-                "python3 waf configure --prefix=${FLATPAK_DEST} --enable-libmpv-shared --disable-cplayer --disable-oss-audio --disable-alsa --disable-manpage-build --disable-debug-build",
+                "python3 waf configure --prefix=${FLATPAK_DEST} --enable-libmpv-shared --enable-lua --disable-cplayer --disable-oss-audio --disable-alsa --disable-manpage-build --disable-debug-build",
                 "python3 waf build",
                 "python3 waf install"
             ],
@@ -53,6 +55,22 @@
                 }
             ],
             "modules" : [
+               {
+                    "name" : "LuaJIT",
+                    "no-autogen": true,
+            	    "cleanup": [ "/lib/*.a", "/include" ],
+                    "sources" : [
+                        {
+                            "type" : "archive",
+                            "url" : "https://github.com/LuaJIT/LuaJIT/archive/v2.0.5.tar.gz",
+                            "sha256" : "8bb29d84f06eb23c7ea4aa4794dbb248ede9fcb23b6989cbef81dc79352afc97"
+                        },
+                        {
+                        "type": "shell",
+                        "commands": [ "sed -i 's|/usr/local|/app|' ./Makefile" ]
+                        }
+                    ]
+                },
                 {
                     "name" : "libass",
                     "cleanup" : [
@@ -281,8 +299,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "tag": "v1.0.4",
-                    "commit": "4079a196b7dbf703ee6cc86fb67c2589812673db"
+                    "tag": "v1.0.7",
+                    "commit": "2c5b22e56e890c1e726a7dcd010c53dbf05d3b54"
                 }
             ]
         }

@@ -10,6 +10,7 @@
         "--socket=pulseaudio",
         "--socket=x11",
         "--socket=wayland",
+        "--device=all",
         "--filesystem=xdg-run/dconf",
         "--filesystem=~/.config/dconf:ro",
         "--own-name=org.mpris.MediaPlayer2.Girens",
@@ -37,7 +38,7 @@
             ],
             "buildsystem" : "simple",
             "build-commands" : [
-                "python3 waf configure --prefix=${FLATPAK_DEST} --enable-libmpv-shared --enable-lua --disable-cplayer --disable-oss-audio --disable-alsa --disable-manpage-build --disable-debug-build",
+                "python3 waf configure --prefix=${FLATPAK_DEST} --enable-libmpv-shared --disable-cplayer --disable-oss-audio --disable-alsa --disable-manpage-build --disable-debug-build",
                 "python3 waf build",
                 "python3 waf install"
             ],
@@ -55,22 +56,6 @@
                 }
             ],
             "modules" : [
-               {
-                    "name" : "LuaJIT",
-                    "no-autogen": true,
-            	    "cleanup": [ "/lib/*.a", "/include" ],
-                    "sources" : [
-                        {
-                            "type" : "archive",
-                            "url" : "https://github.com/LuaJIT/LuaJIT/archive/v2.0.5.tar.gz",
-                            "sha256" : "8bb29d84f06eb23c7ea4aa4794dbb248ede9fcb23b6989cbef81dc79352afc97"
-                        },
-                        {
-                        "type": "shell",
-                        "commands": [ "sed -i 's|/usr/local|/app|' ./Makefile" ]
-                        }
-                    ]
-                },
                 {
                     "name" : "libass",
                     "cleanup" : [
@@ -287,8 +272,8 @@
             "sources" : [
                 {
                     "type" : "archive",
-                    "sha256" : "667d9218fb1ac732564238ba6c034d3b868a4ddecf9ea8f217152361f72b24f2",
-                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.9/libhandy-v0.0.9.tar.bz2"
+                    "sha256" : "366350c0c15f53b8de4032780de4c5a5c41dfe2001d7b3d39ec6399123c2cb73",
+                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.10/libhandy-v0.0.10.tar.bz2"
                 }
             ]
         },
@@ -299,8 +284,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "tag": "v1.0.7",
-                    "commit": "2c5b22e56e890c1e726a7dcd010c53dbf05d3b54"
+                    "tag": "v1.0.8",
+                    "commit": "b544af7f4deaf899cc26da0623690d2e3955374f"
                 }
             ]
         }

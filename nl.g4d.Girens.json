@@ -144,7 +144,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tijder/python-plexapi",
-                    "commit" : "e64cefb295bae2c77301f3e83dd27be75cbbbfe8"
+                    "commit" : "3d5cb6c49b6d6dd4fbe3715e9786f92c4998e052"
                 }
             ],
             "modules" : [
@@ -283,8 +283,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "tag": "v1.0.10",
-                    "commit": "b31cb2bca5eb296181ac36eb74881d397f1bf608"
+                    "tag": "v1.0.11",
+                    "commit": "3f7b0b86b8d5a0580a83a4b39ac8cbdf1532e6fc"
                 }
             ]
         }

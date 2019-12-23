@@ -144,7 +144,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tijder/python-plexapi",
-                    "commit" : "91ba0c00341314f89d175663fab9e5170a630775"
+                    "commit" : "0530bc635de6b1b668aa373c7cd6a091dc57db63"
                 }
             ],
             "modules" : [
@@ -270,9 +270,9 @@
             ],
             "sources" : [
                 {
-                    "type" : "archive",
-                    "sha256" : "cfa0089046a0b04c128e0ff24422058611cb53173ba68a7bbeb028b994a16d17",
-                    "url" : "https://source.puri.sm/Librem5/libhandy/-/archive/v0.0.11/libhandy-v0.0.11.tar.bz2"
+                    "type" : "git",
+                    "url" : "https://source.puri.sm/Librem5/libhandy",
+                    "commit" : "63afc4071c27ad3d722e72ae058ebcc1dc082d20"
                 }
             ]
         },
@@ -297,7 +297,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "commit": "1e1291ed9a7c71165dfc5d99224509ae4e4ad547"
+                    "commit": "6f849fd962d37782a0a9482f0be4d97c4d83d0dc"
                 }
             ]
         }

@@ -277,7 +277,7 @@
             ]
         },
         {
-            "name": "plex-remote",78bfa415c327f4a481912c0bcc45d74cc649db9a
+            "name": "plex-remote",
             "buildsystem": "simple",
             "build-commands": [
                 "pip3 install --prefix=/app ./"

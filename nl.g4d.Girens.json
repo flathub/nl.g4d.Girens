@@ -144,7 +144,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tijder/python-plexapi",
-                    "commit" : "393ee64ca506a624fc6a9dc19ab74f9ea927a2b3"
+                    "commit" : "2f05a85016014522d105e433907f98887f472eff"
                 }
             ],
             "modules" : [
@@ -277,7 +277,7 @@
             ]
         },
         {
-            "name": "plex-remote",
+            "name": "plex-remote",78bfa415c327f4a481912c0bcc45d74cc649db9a
             "buildsystem": "simple",
             "build-commands": [
                 "pip3 install --prefix=/app ./"
@@ -297,7 +297,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "commit": "510864614239d78b6178f707e7a1d71f65c8f366"
+                    "commit": "78bfa415c327f4a481912c0bcc45d74cc649db9a"
                 }
             ]
         }

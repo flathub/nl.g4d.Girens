@@ -1,7 +1,7 @@
 {
     "app-id": "nl.g4d.Girens",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "3.38",
     "sdk": "org.gnome.Sdk",
     "command": "girens",
     "finish-args": [
@@ -114,7 +114,7 @@
                         {
                             "type" : "git",
                             "url" : "https://github.com/FFmpeg/FFmpeg.git",
-                            "commit" : "192d1d34eb3668fa27f433e96036340e1e5077a0"
+                            "commit" : "6b6b9e593dd4d3aaf75f48d40a13ef03bdef9fdb"
                         }
                     ]
                 }
@@ -130,7 +130,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/jaseg/python-mpv",
-                    "commit" : "c1df201b26bb1481e273bbb5043d483106ede191"
+                    "commit" : "2c75f236230f3abe502688f76dd8995d4953ea9a"
                 }
             ]
         },
@@ -236,13 +236,13 @@
                     "name" : "six",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app six-1.12.0-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app six-1.15.0-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {
                             "type" : "file",
-                            "url" : "https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl",
-                            "sha256" : "3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c"
+                            "url" : "https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl",
+                            "sha256" : "8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
                         }
                     ]
                 },
@@ -297,7 +297,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "commit": "91ee81aa3209579eca9dd60ffffee0cd871e26d4"
+                    "commit": "7094810286ea2ed566c0934b7ccec2f6fc3ecfe3"
                 }
             ]
         }

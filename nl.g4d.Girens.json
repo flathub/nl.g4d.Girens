@@ -1,7 +1,7 @@
 {
     "app-id": "nl.g4d.Girens",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.38",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "girens",
     "finish-args": [
@@ -297,7 +297,7 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.gnome.org/tijder/girens",
-                    "commit": "7094810286ea2ed566c0934b7ccec2f6fc3ecfe3"
+                    "commit": "d7c2bd8c73a70113f484265fb9cb1b29ac56dca5"
                 }
             ]
         }

@@ -166,7 +166,7 @@
                     "name" : "certifi",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app certifi-2019.9.11-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app certifi-2020.12.5-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {
@@ -180,7 +180,7 @@
                     "name" : "chardet",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app chardet-3.0.4-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app chardet-4.0.0-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {
@@ -194,7 +194,7 @@
                     "name" : "urllib3",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app urllib3-1.25.7-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app urllib3-1.26.4-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {
@@ -208,7 +208,7 @@
                     "name" : "requests",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app requests-2.22.0-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app requests-2.25.1-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {
@@ -222,7 +222,7 @@
                     "name" : "tqdm",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app tqdm-4.38.0-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app tqdm-4.60.0-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {
@@ -250,7 +250,7 @@
                     "name" : "websocket-client",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app websocket_client-0.56.0-py2.py3-none-any.whl"
+                        "pip3 install --prefix=/app websocket_client-0.58.0-py2.py3-none-any.whl"
                     ],
                     "sources" : [
                         {

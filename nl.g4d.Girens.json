@@ -325,7 +325,7 @@
             "buildsystem" : "meson",
             "config-opts" : [
                 "--libdir=lib",
-                "-Dbuildtype=stable"
+                "-Dbuildtype=release"
             ],
             "sources" : [
                 {

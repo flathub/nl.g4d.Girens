@@ -118,6 +118,8 @@
                         "--disable-doc",
                         "--disable-ffplay",
                         "--enable-version3",
+                        "--enable-demuxer=dash",
+                        "--enable-libxml2",
                         "--disable-programs",
                         "--disable-encoders",
                         "--disable-muxers"
@@ -172,7 +174,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tijder/python-plexapi",
-                    "commit" : "d33c8a6ef49e8ecfeb33b20420bc8295ff028b21"
+                    "commit" : "3fff9765bbf8dd3c65e5ce506e2394c8bc8e6ffb"
                 }
             ],
             "modules" : [
@@ -331,7 +333,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/tijder/girens",
-                    "commit" : "448e92dd0d30a025e41d6c5977dc0c71fc69c897"
+                    "commit" : "d3e7a1d37486166397e2a8b9c162f142ce4c8005"
                 }
             ]
         }

@@ -1,7 +1,7 @@
 {
     "app-id" : "nl.g4d.Girens",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "43",
+    "runtime-version" : "44",
     "sdk" : "org.gnome.Sdk",
     "command" : "girens",
     "finish-args" : [
@@ -37,7 +37,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                    "commit" : "d6c6a66c15613c34cdbafb32ae5facd3bade6ddd"
+                    "commit" : "abc4e5de65160b63ce15a803be2f177c0650e780"
                 }
             ]
         },
@@ -57,12 +57,12 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/mpv-player/mpv",
-                    "commit" : "75d938912ddd50f5658d874c59e1b50e13b28bf1"
+                    "commit" : "e3992664008c6d37012e968e2656a38edd8aa151"
                 },
                 {
                     "type" : "file",
-                    "url" : "https://waf.io/waf-2.0.23",
-                    "sha256" : "28a2e4583314a162cfcbffefb8a9202c1d7869040d30b5852da479b76d9c0491",
+                    "url" : "https://waf.io/waf-2.0.25",
+                    "sha256" : "21199cd220ccf60434133e1fd2ab8c8e5217c3799199c82722543970dc8e38d5",
                     "dest-filename" : "waf"
                 }
             ],
@@ -80,8 +80,8 @@
                     "sources" : [
                         {
                             "type" : "archive",
-                            "url" : "https://github.com/libass/libass/releases/download/0.16.0/libass-0.16.0.tar.xz",
-                            "sha256" : "5dbde9e22339119cf8eed59eea6c623a0746ef5a90b689e68a090109078e3c08"
+                            "url" : "https://github.com/libass/libass/releases/download/0.17.1/libass-0.17.1.tar.xz",
+                            "sha256" : "f0da0bbfba476c16ae3e1cfd862256d30915911f7abaa1b16ce62ee653192784"
                         }
                     ],
                     "modules" : [
@@ -128,7 +128,7 @@
                         {
                             "type" : "git",
                             "url" : "https://github.com/FFmpeg/FFmpeg",
-                            "commit" : "eacfcbae690f914a4b1b4ad06999f138540cc3d8"
+                            "commit" : "2cd09fec9f8d3b16d03e762dec6001cc0b792659"
                         }
                     ]
                 }
@@ -152,13 +152,13 @@
                     "name" : "PyOpenGL",
                     "buildsystem" : "simple",
                     "build-commands" : [
-                        "pip3 install --prefix=/app PyOpenGL-3.1.6-py3-none-any.whl"
+                        "pip3 install --prefix=/app PyOpenGL-3.1.7-py3-none-any.whl"
                     ],
                     "sources" : [
                         {
                             "type" : "file",
-                            "url" : "https://files.pythonhosted.org/packages/80/07/003fe74d2af04be917035b42c53c7ea9e3abe1e353753cebccfe792b4e52/PyOpenGL-3.1.6-py3-none-any.whl",
-                            "sha256" : "a7139bc3e15d656feae1f7e3ef68c799941ed43fadc78177a23db7e946c20738"
+                            "url" : "https://files.pythonhosted.org/packages/99/48/00e31747821d3fc56faddd00a4725454d1e694a8b67d715cf20f531506a5/PyOpenGL-3.1.7-py3-none-any.whl",
+                            "sha256" : "a6ab19cf290df6101aaf7470843a9c46207789855746399d0af92521a0a92b7a"
                         }
                     ]
                 }
@@ -174,7 +174,7 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/tijder/python-plexapi",
-                    "commit" : "3fff9765bbf8dd3c65e5ce506e2394c8bc8e6ffb"
+                    "commit" : "cadb3d2a399702ae3908cad70e52e439d9b665a2"
                 }
             ],
             "modules" : [
@@ -333,7 +333,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/tijder/girens",
-                    "commit" : "519b8c5651797d15d1937fdaba69a8f1ba2a3f4d"
+                    "commit" : "94127cc0fbfb65980de4e5e5c1875ba1ed79a32c"
                 }
             ]
         }

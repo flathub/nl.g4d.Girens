@@ -35,7 +35,7 @@
             "buildsystem" : "meson",
             "cleanup": [
                 "*"
-            ]
+            ],
             "sources" : [
                 {
                     "type" : "git",

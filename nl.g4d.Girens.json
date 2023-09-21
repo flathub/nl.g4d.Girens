@@ -1,7 +1,7 @@
 {
     "app-id" : "nl.g4d.Girens",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "44",
+    "runtime-version" : "45",
     "sdk" : "org.gnome.Sdk",
     "command" : "girens",
     "finish-args" : [
@@ -33,6 +33,9 @@
         {
             "name" : "blueprint-compiler",
             "buildsystem" : "meson",
+            "cleanup": [
+                "*"
+            ],
             "sources" : [
                 {
                     "type" : "git",

@@ -131,7 +131,7 @@
                         {
                             "type" : "git",
                             "url" : "https://github.com/FFmpeg/FFmpeg",
-                            "commit" : "9583a2c8ebfa39a22185171d6a4b1d6a33c044e2"
+                            "commit" : "7212466e735aa187d82f51dadbce957fe3da77f0"
                         }
                     ]
                 }
@@ -336,7 +336,7 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.gnome.org/tijder/girens",
-                    "commit" : "94127cc0fbfb65980de4e5e5c1875ba1ed79a32c"
+                    "commit" : "00b2b684ce0bffba1b2f6f64c174acfc8f80900b"
                 }
             ]
         }

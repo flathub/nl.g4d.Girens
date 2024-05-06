@@ -58,12 +58,6 @@
                     "type": "git",
                     "url": "https://github.com/mpv-player/mpv",
                     "commit": "02254b92dd237f03aa0a151c2a68778c4ea848f9"
-                },
-                {
-                    "type": "file",
-                    "url": "https://waf.io/waf-2.0.26",
-                    "sha256": "dcec3e179f9c33a66544f1b3d7d91f20f6373530510fa6a858cddb6bfdcde14b",
-                    "dest-filename": "waf"
                 }
             ],
             "modules": [

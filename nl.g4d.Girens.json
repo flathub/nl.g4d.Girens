@@ -375,7 +375,7 @@
                         {
                             "type": "git",
                             "url": "https://gitlab.gnome.org/tijder/girens",
-                            "commit": "73a914b2b369b12b971f6152f0519a40e9085188"
+                            "commit": "a8815724ce4f540f855900d796808d04587f27ac"
                         }
                     ]
                 }

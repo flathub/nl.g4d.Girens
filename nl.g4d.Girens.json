@@ -64,6 +64,7 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mpv-player/mpv",
+                    "tag": "v0.39.0",
                     "commit": "a0fba7be57f3822d967b04f0f6b6d6341e7516e7"
                 }
             ],
@@ -170,6 +171,7 @@
                                 {
                                     "type": "git",
                                     "url": "https://github.com/FFmpeg/FFmpeg",
+                                    "tag": "n7.1",
                                     "commit": "b08d7969c550a804a59511c7b83f2dd8cc0499b8"
                                 }
                             ]
@@ -375,7 +377,7 @@
                         {
                             "type": "git",
                             "url": "https://gitlab.gnome.org/tijder/girens",
-                            "commit": "ec4be8369695e981d1b7dc682a217d4098bfbaf4"
+                            "commit": "0a0e9f92089738ea8ea7d148a7657d802d77b001"
                         }
                     ]
                 }

@@ -10,10 +10,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --device=all
-  - --filesystem=xdg-run/dconf
-  - --filesystem=~/.config/dconf:ro
   - --own-name=org.mpris.MediaPlayer2.Girens
-  - --talk-name=ca.desrt.dconf
   - --talk-name=org.freedesktop.secrets
   - --metadata=X-DConf=migrate-path=/nl/g4d/Girens/
 cleanup:

@@ -29,8 +29,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-        tag: v0.20.0
-        commit: aa5298cc1677cf855bd61f9671607362bd203f4f
+        tag: v0.20.2
+        commit: d0a00f09703ca86230377fd542dc5e28188f0111
         x-checker-data:
           type: git
   - name: libmpv
@@ -211,8 +211,8 @@ modules:
           - pip3 install --prefix=/app chardet-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/87/13/6aa6c9118ce153a806bb0472e27e8f8c24e6925db8a5b9fe99e03e45af15/chardet-7.1.0-py3-none-any.whl
-            sha256: 7f677725333bf53f84b7f57458f44669a8a5eb2ac4092ac699cdfa9b1af08a5f
+            url: https://files.pythonhosted.org/packages/c2/47/97786f40be59ff5ff10ec5ebcb1ef0ad28dd915717cb210cee89ae7a83a6/chardet-7.2.0-py3-none-any.whl
+            sha256: f8ea866b9fbd8df5f19032d765a4d81dcbf6194a3c7388b44d378d02c9784170
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel

@@ -24,15 +24,6 @@ cleanup:
   - '*.la'
   - '*.a'
 modules:
-  - name: blueprint-compiler
-    buildsystem: meson
-    sources:
-      - type: git
-        url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-        tag: v0.20.0
-        commit: aa5298cc1677cf855bd61f9671607362bd203f4f
-        x-checker-data:
-          type: git
   - name: libmpv
     cleanup:
       - /include

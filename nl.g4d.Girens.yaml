@@ -202,8 +202,8 @@ modules:
           - pip3 install --prefix=/app chardet-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/91/d7/47988d40231b41376f5a66346ef3b322c81091dfd4c0f84df5a1e3bb06b5/chardet-7.4.0.post1-py3-none-any.whl
-            sha256: 57a62ef50f69bc2fb3a3ea1ffffec6d10f3d2112d3b05d6e3cb15c2c9b55f6cc
+            url: https://files.pythonhosted.org/packages/94/d2/22ac0b5b832bb9d2f29311dcded6c09ad0c32c23e3e53a8033aad5eb8652/chardet-7.4.0.post2-py3-none-any.whl
+            sha256: e0c9c6b5c296c0e5197bc8876fcc04d58a6ddfba18399e598ba353aba28b038e
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -226,8 +226,8 @@ modules:
           - pip3 install --prefix=/app requests-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/56/5d/c814546c2333ceea4ba42262d8c4d55763003e767fa169adc693bd524478/requests-2.33.0-py3-none-any.whl
-            sha256: 3324635456fa185245e24865e810cecec7b4caf933d7eb133dcde67d48cee69b
+            url: https://files.pythonhosted.org/packages/d7/8e/7540e8a2036f79a125c1d2ebadf69ed7901608859186c856fa0388ef4197/requests-2.33.1-py3-none-any.whl
+            sha256: 4e6d1ef462f3626a1f0a0a9c42dd93c63bad33f9f1c1937509b8c5c8718ab56a
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel

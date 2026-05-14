@@ -295,5 +295,5 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/tijder/girens
-        commit: 93f9018ff5bd165b6506f82dcbd32211247d3262
+        commit: 13712281223c91ba7901e411f3341883fa323f11
         tag: v2.0.8

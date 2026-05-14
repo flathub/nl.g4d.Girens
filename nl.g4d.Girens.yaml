@@ -27,15 +27,6 @@ cleanup:
   - '*.la'
   - '*.a'
 modules:
-  - name: blueprint-compiler
-    buildsystem: meson
-    sources:
-      - type: git
-        url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-        tag: v0.20.0
-        commit: aa5298cc1677cf855bd61f9671607362bd203f4f
-        x-checker-data:
-          type: git
   - name: libmpv
     cleanup:
       - /include
@@ -121,8 +112,8 @@ modules:
                 sources:
                   - type: archive
                     archive-type: tar
-                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/16.2.0.tar.gz
-                    sha256: 01985335785c97906a91afe3cb5ee015997696181ec6c125bab5555602ba08e2
+                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/16.3.0.tar.gz
+                    sha256: efff5a15258dce1ca2d323bf64c974f5fca03778174615dbc30c8d36db645bf5
                     x-checker-data:
                       type: anitya
                       project-id: 205796
@@ -190,8 +181,8 @@ modules:
           - pip3 install --prefix=/app idna-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/0e/61/66938bbb5fc52dbdf84594873d5b51fb1f7c7794e9c0f5bd885f30bc507b/idna-3.11-py3-none-any.whl
-            sha256: 771a87f49d9defaf64091e6e6fe9c18d4833f140bd19464795bc32d966ca37ea
+            url: https://files.pythonhosted.org/packages/d2/23/408243171aa9aaba178d3e2559159c24c1171a641aa83b67bdd3394ead8e/idna-3.15-py3-none-any.whl
+            sha256: 048adeaf8c2d788c40fee287673ccaa74c24ffd8dcf09ffa555a2fbb59f10ac8
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -202,8 +193,8 @@ modules:
           - pip3 install --prefix=/app certifi-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/9a/3c/c17fb3ca2d9c3acff52e30b309f538586f9f5b9c9cf454f3845fc9af4881/certifi-2026.2.25-py3-none-any.whl
-            sha256: 027692e4402ad994f1c42e52a4997a9763c646b73e4096e4d5d6db8af1d6f0fa
+            url: https://files.pythonhosted.org/packages/22/30/7cd8fdcdfbc5b869528b079bfb76dcdf6056b1a2097a662e5e8c04f42965/certifi-2026.4.22-py3-none-any.whl
+            sha256: 3cb2210c8f88ba2318d29b0388d1023c8492ff72ecdde4ebdaddbb13a31b1c4a
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -214,8 +205,8 @@ modules:
           - pip3 install --prefix=/app chardet-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/87/13/6aa6c9118ce153a806bb0472e27e8f8c24e6925db8a5b9fe99e03e45af15/chardet-7.1.0-py3-none-any.whl
-            sha256: 7f677725333bf53f84b7f57458f44669a8a5eb2ac4092ac699cdfa9b1af08a5f
+            url: https://files.pythonhosted.org/packages/8c/6c/0a40afdb50a0fe041ab95553b835a8160b6cf0e81edf2ae2fe9f5224cbf9/chardet-7.4.3-py3-none-any.whl
+            sha256: 1173b74051570cf08099d7429d92e4882d375ad4217f92a6e5240ccfb26f231e
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -226,8 +217,8 @@ modules:
           - pip3 install --prefix=/app urllib3-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/39/08/aaaad47bc4e9dc8c725e68f9d04865dbcb2052843ff09c97b08904852d84/urllib3-2.6.3-py3-none-any.whl
-            sha256: bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4
+            url: https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl
+            sha256: 9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -238,8 +229,8 @@ modules:
           - pip3 install --prefix=/app requests-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/1e/db/4254e3eabe8020b458f1a747140d32277ec7a271daf1d235b70dc0b4e6e3/requests-2.32.5-py3-none-any.whl
-            sha256: 2462f94637a34fd532264295e186976db0f5d453d1cdd31473c85a6a161affb6
+            url: https://files.pythonhosted.org/packages/15/5a/4a949d170476de3c04ac036b5466422fbcbf348a917d8042eedf2cac7d1b/requests-2.34.1-py3-none-any.whl
+            sha256: bf38a3ff993960d3dd819c08862c40b3c703306eb7c744fcd9f4ddbb95b548f0
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -251,8 +242,8 @@ modules:
               - pip3 install --prefix=/app charset_normalizer-*.whl
             sources:
               - type: file
-                url: https://files.pythonhosted.org/packages/c5/60/3a621758945513adfd4db86827a5bafcc615f913dbd0b4c2ed64a65731be/charset_normalizer-3.4.5-py3-none-any.whl
-                sha256: 9db5e3fcdcee89a78c04dffb3fe33c79f77bd741a624946db2591c81b2fc85b0
+                url: https://files.pythonhosted.org/packages/db/8f/61959034484a4a7c527811f4721e75d02d653a35afb0b6054474d8185d4c/charset_normalizer-3.4.7-py3-none-any.whl
+                sha256: 3dce51d0f5e7951f8bb4900c257dad282f49190fdbebecd4ba99bcc41fef404d
                 x-checker-data:
                   type: pypi
                   packagetype: bdist_wheel

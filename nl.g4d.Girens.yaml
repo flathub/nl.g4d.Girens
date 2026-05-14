@@ -10,10 +10,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --device=all
-  - --filesystem=xdg-run/dconf
-  - --filesystem=~/.config/dconf:ro
   - --own-name=org.mpris.MediaPlayer2.Girens
-  - --talk-name=ca.desrt.dconf
   - --talk-name=org.freedesktop.secrets
   - --metadata=X-DConf=migrate-path=/nl/g4d/Girens/
 cleanup:
@@ -169,11 +166,15 @@ modules:
   - name: PlexAPI
     buildsystem: simple
     build-commands:
-      - pip3 install --prefix=/app ./
+      - pip3 install --prefix=/app plexapi-*.whl
     sources:
-      - type: git
-        url: https://github.com/tijder/python-plexapi
-        commit: cadb3d2a399702ae3908cad70e52e439d9b665a2
+      - type: file
+        url: https://files.pythonhosted.org/packages/17/a8/9f1c54ce351d681aa0eb2221f7deccbdd5a95421507eb59e6f7ec83931d7/plexapi-4.18.1-py3-none-any.whl
+        sha256: d8330cee337bc55dc006c392a58b3259239d787a32cbe4064b50a9b07a6e0b35
+        x-checker-data:
+          type: pypi
+          packagetype: bdist_wheel
+          name: PlexAPI
     modules:
       - name: idna
         buildsystem: simple
@@ -284,14 +285,6 @@ modules:
               type: pypi
               packagetype: bdist_wheel
               name: websocket-client
-  - name: plex-remote
-    buildsystem: simple
-    build-commands:
-      - pip3 install --prefix=/app ./
-    sources:
-      - type: git
-        url: https://github.com/tijder/plex-remote
-        commit: c29ef9549c166902e53b3a1b603b365d70ebdf93
   - name: girens
     buildsystem: meson
     config-opts:

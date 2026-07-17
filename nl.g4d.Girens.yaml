@@ -109,8 +109,8 @@ modules:
                 sources:
                   - type: archive
                     archive-type: tar
-                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/16.3.0.tar.gz
-                    sha256: efff5a15258dce1ca2d323bf64c974f5fca03778174615dbc30c8d36db645bf5
+                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/16.4.0.tar.gz
+                    sha256: c634d6237eb0cc04d5ddf5dc9955daa175d82b0f8797acab45b49965e9f6df13
                     x-checker-data:
                       type: anitya
                       project-id: 205796
@@ -255,8 +255,8 @@ modules:
           - pip3 install --prefix=/app tqdm-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/22/2a/5e5e750890ada51017d18d0d4c30da696e5b5bd3180947729927628fc3cb/tqdm-4.68.4-py3-none-any.whl
-            sha256: 5168118b2368f48c561afda8020fd79195b1bdb0bdf8086b88442c267a315dc2
+            url: https://files.pythonhosted.org/packages/fe/21/99a0cdaf54eb35e77623c41b5a2c9472ee4404bba687052791fe2aba6773/tqdm-4.69.0-py3-none-any.whl
+            sha256: 9979978912be667a6ef21fd5d8abf54e324e63d82f7f43c360792ebc2bc4e622
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel

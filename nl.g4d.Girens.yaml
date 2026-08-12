@@ -206,8 +206,8 @@ modules:
           - pip3 install --prefix=/app chardet-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/8c/6c/0a40afdb50a0fe041ab95553b835a8160b6cf0e81edf2ae2fe9f5224cbf9/chardet-7.4.3-py3-none-any.whl
-            sha256: 1173b74051570cf08099d7429d92e4882d375ad4217f92a6e5240ccfb26f231e
+            url: https://files.pythonhosted.org/packages/36/6b/f195e0d66b1e18ccbcc3adc52c1c7e1263203e70b9bbe12c5a4198d1935b/chardet-7.5.1-py3-none-any.whl
+            sha256: ba7e9b6c15b4fcdf07ae675e5116dee610425f9ad6955c9bdb6bf99aed2e555d
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -243,8 +243,8 @@ modules:
               - pip3 install --prefix=/app charset_normalizer-*.whl
             sources:
               - type: file
-                url: https://files.pythonhosted.org/packages/98/2b/f97f1c193fb855c345d678f5077d6926034db0722df74c8f057020e05a25/charset_normalizer-3.4.9-py3-none-any.whl
-                sha256: 68e5f26a1ad57ded6d1cfb85331d1c1a195314756471d97758c48498bb4dcdf5
+                url: https://files.pythonhosted.org/packages/22/c7/754d09943a616937df61e4ba367c409ded2a987e872972098d51a6fcf73b/charset_normalizer-3.5.0-py3-none-any.whl
+                sha256: 993dfcbe75a85a3784abb5084f2c41b915767c90546fcc92803cffa28611baea
                 x-checker-data:
                   type: pypi
                   packagetype: bdist_wheel

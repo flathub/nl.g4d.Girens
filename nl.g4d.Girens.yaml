@@ -182,8 +182,8 @@ modules:
           - pip3 install --prefix=/app idna-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/1e/5e/d4e9f1a599fb8e573b7b87160658329fbf28d19eac2718f51fc3def3aa5a/idna-3.18-py3-none-any.whl
-            sha256: 7f952cbe720b688055e3f87de14f5c3e5fdaa8bc3928985c4077ca689de849a2
+            url: https://files.pythonhosted.org/packages/57/b0/0e52c878c53f245edd3a11020f20979b3f490f245af532c7cae3027754b5/idna-3.19-py3-none-any.whl
+            sha256: 815e7be7a7806d54abb586dc943addc79e8b2ee16915059658cbeff4b1b43bf4
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -206,8 +206,8 @@ modules:
           - pip3 install --prefix=/app chardet-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/8c/6c/0a40afdb50a0fe041ab95553b835a8160b6cf0e81edf2ae2fe9f5224cbf9/chardet-7.4.3-py3-none-any.whl
-            sha256: 1173b74051570cf08099d7429d92e4882d375ad4217f92a6e5240ccfb26f231e
+            url: https://files.pythonhosted.org/packages/cf/6e/5a0b348fa4cd7847567a28c6e697ccf58391960bfd13a6e7473ee23ca2f2/chardet-7.6.0-py3-none-any.whl
+            sha256: 4076d795897ce45239825956a1334e134322ecc4bfe84dbb12acd5390de0fbc1
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -243,8 +243,8 @@ modules:
               - pip3 install --prefix=/app charset_normalizer-*.whl
             sources:
               - type: file
-                url: https://files.pythonhosted.org/packages/98/2b/f97f1c193fb855c345d678f5077d6926034db0722df74c8f057020e05a25/charset_normalizer-3.4.9-py3-none-any.whl
-                sha256: 68e5f26a1ad57ded6d1cfb85331d1c1a195314756471d97758c48498bb4dcdf5
+                url: https://files.pythonhosted.org/packages/cc/61/d01fc49b8dea277640b55a9e15960dbca9fdc8c9fde18e572d39c59f4019/charset_normalizer-3.5.1-py3-none-any.whl
+                sha256: 6df0ec430f9a831772c23ca5a224cba36517a58a84bb32c32bb59a9fa67c47f6
                 x-checker-data:
                   type: pypi
                   packagetype: bdist_wheel
@@ -279,8 +279,8 @@ modules:
           - pip3 install --prefix=/app websocket_client-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/34/db/b10e48aa8fff7407e67470363eac595018441cf32d5e1001567a7aeba5d2/websocket_client-1.9.0-py3-none-any.whl
-            sha256: af248a825037ef591efbf6ed20cc5faa03d3b47b9e5a2230a529eeee1c1fc3ef
+            url: https://files.pythonhosted.org/packages/3e/0e/7b514f6eb4bf518a9af0285c1a78297467b95fd7d1ebab08b41f8889ab2f/websocket_client-1.9.1-py3-none-any.whl
+            sha256: 19a871b81d0022589dd9e8e1b1891e0516d32113837dfb987d7691b6a425a1e2
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel

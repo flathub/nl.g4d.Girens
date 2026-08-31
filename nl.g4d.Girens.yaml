@@ -279,8 +279,8 @@ modules:
           - pip3 install --prefix=/app websocket_client-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/3e/0e/7b514f6eb4bf518a9af0285c1a78297467b95fd7d1ebab08b41f8889ab2f/websocket_client-1.9.1-py3-none-any.whl
-            sha256: 19a871b81d0022589dd9e8e1b1891e0516d32113837dfb987d7691b6a425a1e2
+            url: https://files.pythonhosted.org/packages/d5/d2/cc4dc1271e464942db7ee278baae2daa99ee77cb2af744025c04da585a3e/websocket_client-1.9.2-py3-none-any.whl
+            sha256: e1a673830a9c7bfa47b1cd3d5e4178f4c9651d80a4eab02c9c23a1c3ec6250ce
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel

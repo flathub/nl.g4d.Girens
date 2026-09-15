@@ -131,8 +131,8 @@ modules:
                 sources:
                   - type: archive
                     archive-type: tar
-                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/16.5.0.tar.gz
-                    sha256: 01af17195fbeb59e39e31e9506de35bb39dfd35807ea0c9a1a99d7d1183ddd45
+                    url: https://github.com/KhronosGroup/glslang/archive/refs/tags/16.6.0.tar.gz
+                    sha256: 9c09b901149c729df745057dafa815278aaa101b84d2b6e14f16a42de52f97f2
                     x-checker-data:
                       type: anitya
                       project-id: 205796
@@ -218,8 +218,8 @@ modules:
           - pip3 install --prefix=/app urllib3-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl
-            sha256: 9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897
+            url: https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl
+            sha256: 0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel
@@ -255,8 +255,8 @@ modules:
           - pip3 install --prefix=/app tqdm-*.whl
         sources:
           - type: file
-            url: https://files.pythonhosted.org/packages/f9/1c/01bfd571a64e7f270e6bab5e33777debe0edc56759233ce84f27dec92d14/tqdm-4.70.0-py3-none-any.whl
-            sha256: 7f585706bfddbdebf89daac705b2dfcc16890130727d3197ca62c732b4310953
+            url: https://files.pythonhosted.org/packages/a7/03/921a3d3c75785aca9ebfbfcabfbc3a1be12e2ab5265deb026d55a5a3f83e/tqdm-4.70.1-py3-none-any.whl
+            sha256: c293e525e6fef9c20e8728fd4612df02a0aa31bb5fe91ecd93e123b1b7bffa73
             x-checker-data:
               type: pypi
               packagetype: bdist_wheel

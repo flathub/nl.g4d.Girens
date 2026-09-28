@@ -169,8 +169,8 @@ modules:
       - pip3 install --prefix=/app plexapi-*.whl
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/64/a8/09a5680e8184ad6251db8f8732fe8bf1f9a85c6377433833da965babd927/plexapi-4.18.2-py3-none-any.whl
-        sha256: 7ff9f30db57af08407500b2d59e5e57d674d2aa6082dce418086019abb5b8f78
+        url: https://files.pythonhosted.org/packages/79/bc/9e218dfda0a25fc16994ddfbf869503b80375a4d37bf2d8e7ee8d3e77390/plexapi-4.18.3-py3-none-any.whl
+        sha256: d59948f1f4b345a58a46e189bfccc7dadd86a6266ec2c97cd072a113a2d3c81d
         x-checker-data:
           type: pypi
           packagetype: bdist_wheel

@@ -157,6 +157,5 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/tijder/girens
-        branch: rust
         commit: cc7d2378ff5efdb06f2b1ce7e03be40666141581
       - cargo-sources.json

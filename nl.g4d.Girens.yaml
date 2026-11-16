@@ -13,7 +13,7 @@ finish-args:
   - --socket=pulseaudio
   - --socket=wayland
   - --socket=fallback-x11
-  - --device=dri
+  - --device=all
   - --own-name=org.mpris.MediaPlayer2.Girens
   - --talk-name=org.freedesktop.secrets
   - --metadata=X-DConf=migrate-path=/nl/g4d/Girens/

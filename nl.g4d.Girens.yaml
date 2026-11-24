@@ -135,7 +135,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/tijder/girens
-        commit: 9f273aa5eda271b5feef860f2ec784abef84704e
+        commit: f123b4eea25f98a1d764770331c0bf2f0cf093af
       - cargo-sources.json
       # libmpv2 7.0.0 assumes that C's char is signed, which it is not on
       # aarch64; without this it does not compile there.
